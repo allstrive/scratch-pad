@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2024-06-18T17:40:13.402Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.5.5" etag="E697LJ53GuyxFhJQC7GW" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-18T18:04:29.046Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="YtH9YISI_Bpg1aE4A6IQ" version="24.5.5" type="github">
   <diagram name="Page-1" id="sGCM31c36DfaZabweLmo">
-    <mxGraphModel>
+    <mxGraphModel dx="1082" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FMENBu654gckp-r9Q24b-14" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="168" y="150" width="662" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-1" value="Proxy" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="378" y="300" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FMENBu654gckp-r9Q24b-4" target="FMENBu654gckp-r9Q24b-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-4" value="Auth Provider" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="425" y="295" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-5" value="User DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="650" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FMENBu654gckp-r9Q24b-8" target="FMENBu654gckp-r9Q24b-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-8" value="User App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="320" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-15" value="Kubernetes Cluster" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="180" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FMENBu654gckp-r9Q24b-17" target="FMENBu654gckp-r9Q24b-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FMENBu654gckp-r9Q24b-17" target="FMENBu654gckp-r9Q24b-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-17" value="Ingress" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="110" y="325" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-21" value="Proxy" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="381" y="429" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-22" value="Auth Provider" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="428" y="424" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-42" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="170" width="120" height="695" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-23" value="Proxy" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="390" y="625" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-24" value="Auth Provider" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="437" y="620" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.416;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FMENBu654gckp-r9Q24b-17" target="FMENBu654gckp-r9Q24b-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-29" value="Voice Validation" style="rounded=0;whiteSpace=wrap;html=1;rotation=-91;" vertex="1" parent="1">
+          <mxGeometry x="610" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-30" value="Voice Validation" style="rounded=0;whiteSpace=wrap;html=1;rotation=-91;" vertex="1" parent="1">
+          <mxGeometry x="610" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-31" value="Voice Validation" style="rounded=0;whiteSpace=wrap;html=1;rotation=-91;" vertex="1" parent="1">
+          <mxGeometry x="610" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-38" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="540" y="424" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FMENBu654gckp-r9Q24b-22" target="FMENBu654gckp-r9Q24b-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FMENBu654gckp-r9Q24b-24" target="FMENBu654gckp-r9Q24b-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-43" value="Flink" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMENBu654gckp-r9Q24b-11" value="Voice Validation" style="rounded=0;whiteSpace=wrap;html=1;rotation=-91;" vertex="1" parent="1">
+          <mxGeometry x="610" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
